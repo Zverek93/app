@@ -10,7 +10,7 @@ import re
 import imutils
 import pytesseract
 import pytesseract as tess
-tess.pytesseract.tesseract_cmd = r'Tesseract-OCR\\tesseract.exe'
+tess.pytesseract.tesseract_cmd = r'Tesseract-OCR\tesseract.exe'
 from PyQt6 import uic
 from PyQt6.QtGui import QPixmap
 from PyQt6.QtWidgets import QApplication, QFileDialog, QDialog, QTableWidgetItem
